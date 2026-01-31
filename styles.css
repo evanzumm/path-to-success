@@ -55,7 +55,7 @@ table {
 }
 
 h1, h2{
-    font: Kavoon;
+    font: "Kavoon";
 }
 
 h1{
@@ -75,7 +75,7 @@ h4{
 }
 
 h3, h4, p, li, a{
-    font: Inter;
+    font: "Inter";
 }
 
 body{
@@ -209,4 +209,35 @@ nav a{
     color: var(--dk-gray);
     padding: 1rem;
     border: solid 2px var(--yellow);
+}
+
+.firststep{
+    background-color: var(--pink);
+    padding: .75rem;
+}
+
+.firststep a{
+    text-decoration: none;
+}
+
+.button{
+    background-color: var(--white);
+    color: var(--dk-gray);
+    border-radius: 1rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 2rem;
+    margin: .5rem 0rem;
+    box-shadow: 4px 4px 5px var(--dk-gray);
+}
+
+footer{
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer p, footer a{
+    margin: auto;
+    color: var(--white);
 }
