@@ -107,6 +107,7 @@ nav{
 
 nav h2{
     font-size: 1.5em;
+    font-style: italic;
 }
 
 nav li{
@@ -118,4 +119,29 @@ nav li{
 
 nav a{
     text-decoration: none;
+}
+
+.services{
+    margin: .75rem;
+}
+
+.services h3{
+    color: var(--yellow);
+    margin: .75rem 0rem;
+}
+
+.services div{
+   background-color: var(--white);
+   padding: 1rem;
+   border-radius: 1rem;
+   margin: 1rem;
+}
+
+.services h4{
+    color: var(--purple);
+    padding: .75rem 0rem;
+}
+
+.services p{
+    color: var(--dk-gray);
 }
