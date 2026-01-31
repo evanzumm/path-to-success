@@ -181,3 +181,32 @@ nav a{
 .fourthbox{
     background-color: var(--white);
 }
+
+.pricing{
+    padding: .5rem;
+}
+
+.pricing h3{
+    color: var(--yellow);
+    margin: .5rem 0rem;
+}
+
+.pricing table{
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.pricing th{
+    background-color: var(--yellow);
+    color: var(--dk-gray);
+    padding: 1rem;
+    border: solid 2px var(--yellow);
+}
+
+.pricing td{
+    background-color: var(--white);
+    color: var(--dk-gray);
+    padding: 1rem;
+    border: solid 2px var(--yellow);
+}
