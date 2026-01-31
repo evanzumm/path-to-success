@@ -145,3 +145,39 @@ nav a{
 .services p{
     color: var(--dk-gray);
 }
+
+.why{
+    background-color: var(--pink);
+    padding: 1rem .75rem;
+}
+
+.why ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px;
+}
+
+.why li{
+    color: var(--dk-gray);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: .75rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.firstbox{
+    background-color: var(--teal);
+}
+
+.secondbox{
+    background-color: var(--lavender);
+}
+
+.thirdbox{
+    background-color: var(--yellow);
+}
+
+.fourthbox{
+    background-color: var(--white);
+}
