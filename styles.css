@@ -52,10 +52,12 @@ table {
     --pink: #d9526f;
     --dk-gray: #1e1e1e;
     --white: #ffffff;
+    --title-font: Kavoon;
+
 }
 
 h1, h2{
-    font: "Kavoon";
+    font-family: Kavoon, sans-serif;
 }
 
 h1{
@@ -75,7 +77,7 @@ h4{
 }
 
 h3, h4, p, li, a{
-    font: "Inter";
+    font-family: Inter, sans-serif;
 }
 
 body{
@@ -96,6 +98,7 @@ header h1{
 header p{
     font-style: italic;
     text-align: center;
+    padding-top: .75rem;
 }
 
 nav{
@@ -105,9 +108,10 @@ nav{
     padding: .75rem;
 }
 
-nav h2{
+nav h3{
     font-size: 1.5em;
     font-style: italic;
+    font-weight: bold;
 }
 
 nav li{
@@ -115,6 +119,7 @@ nav li{
     background-color: var(--white);
     margin: 1rem;
     padding: 1rem;
+    font-weight: bold;
 }
 
 nav a{
@@ -128,6 +133,7 @@ nav a{
 .services h3{
     color: var(--yellow);
     margin: .75rem 0rem;
+    font-weight: bold;
 }
 
 .services div{
@@ -139,11 +145,14 @@ nav a{
 
 .services h4{
     color: var(--purple);
-    padding: .75rem 0rem;
+    padding: .75rem;
+    font-weight: bold;
 }
 
 .services p{
     color: var(--dk-gray);
+    font-weight: 400;
+    padding: .5rem;
 }
 
 .why{
@@ -154,16 +163,19 @@ nav a{
 .why ul{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 125px 125px;
+    justify-content: center;
+    padding: .5rem 0rem;
 }
 
 .why li{
     color: var(--dk-gray);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: .75rem;
     font-size: 1.25rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .firstbox{
@@ -189,12 +201,14 @@ nav a{
 .pricing h3{
     color: var(--yellow);
     margin: .5rem 0rem;
+    font-weight: bold;
 }
 
 .pricing table{
     max-width: 300px;
     text-align: center;
     margin: auto;
+    font-family: Inter, sans-serif;
 }
 
 .pricing th{
@@ -202,6 +216,7 @@ nav a{
     color: var(--dk-gray);
     padding: 1rem;
     border: solid 2px var(--yellow);
+    font-weight: bold;;
 }
 
 .pricing td{
@@ -213,7 +228,11 @@ nav a{
 
 .firststep{
     background-color: var(--pink);
-    padding: .75rem;
+    padding: 1rem;
+}
+
+.firststep p{
+    padding: 1rem 0rem;
 }
 
 .firststep a{
@@ -229,6 +248,7 @@ nav a{
     padding: 2rem;
     margin: .5rem 0rem;
     box-shadow: 4px 4px 5px var(--dk-gray);
+    font-weight: bold;
 }
 
 footer{
