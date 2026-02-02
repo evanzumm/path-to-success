@@ -1,5 +1,6 @@
 /* CSS by Emily Van Zummeren*/
 
+/*CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,6 +45,7 @@ table {
 	border-spacing: 0;
 }
 
+/* Root Variables */
 :root{
     --teal: #4ca7c0;
     --purple: #484fb7;
@@ -56,6 +58,7 @@ table {
 
 }
 
+/* Global Styles */
 h1, h2{
     font-family: Kavoon, sans-serif;
 }
